@@ -16,4 +16,6 @@ Normalmente, utilizamos algoritmos desenvolvidos por outras pessoas e, nesse cas
 
 Por exemplo, a pesquisa binária é O(log n), indicando um tempo de execução logarítmico. Já a pesquisa linear é O(n), indicando um tempo de execução linear.
 
+### Listas Encadeadas & Arrays:
+
 
