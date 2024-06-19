@@ -16,6 +16,14 @@ Normalmente, utilizamos algoritmos desenvolvidos por outras pessoas e, nesse cas
 
 Por exemplo, a pesquisa binária é O(log n), indicando um tempo de execução logarítmico. Já a pesquisa linear é O(n), indicando um tempo de execução linear.
 
-### Listas Encadeadas & Arrays:
+### Ordenação Por Seleção:
+
+#### Listas Encadeadas x Arrays:
+Arrays exigem que seus itens sejam armazenados sequencialmente na memória, ou seja, é necessário pré-definir a quantidade exata de espaços (endereços). A desvantagem é que, para inserir um novo item, é necessário realocar todos os itens presentes para uma área maior. A vantagem é que você pode acessar os elementos aleatoriamente, já que conhece o endereço de cada um.
+
+Listas, por outro lado, não exigem que seus itens estejam armazenados sequencialmente, pois cada item contém o endereço do próximo. Assim, cada elemento aponta para o próximo, como em uma caça ao tesouro. A desvantagem é que, para acessar o último elemento, por exemplo, é necessário percorrer toda a lista, um por um (ao contrário dos arrays). A vantagem é que adicionar um item à lista é mais fácil, pois não há preocupação com a alocação contínua de espaço de memória.
+
+Em conclusão, cada estrutura tem seus pontos fortes e fracos, e a escolha depende muito das funcionalidades necessárias. Muitos algoritmos utilizam arrays e listas como fundamentos, o que ressalta sua importância.
+
 
 
